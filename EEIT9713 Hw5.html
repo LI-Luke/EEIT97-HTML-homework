@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Homework5</title>
+	<meta charset="utf-8" /> 
+    <script src="../js/Hw5.js"></script>
+    <link href="../css/hw5.css" rel="stylesheet" />
+    <link href="../css/index.css" rel="stylesheet" />
+    <style>
+           #index {
+            margin:auto;
+            margin-bottom:20px;
+            font-size:40px;
+             color:	#FFE66F;
+              text-shadow:5px 5px 5px#02C874;
+
+               width: 3.2em;
+            border-right: .05em solid white;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 3s steps(8),
+                  caret 1s steps(1) infinite;
+        } 
+        @keyframes typing {
+  from { width: 0 }
+}
+@keyframes caret {
+  50% { border-color:transparent; }
+} 
+    </style>
+</head>
+<body>
+  
+    <div id="allpage">
+        <h1 id="index" class="blink">行事曆</h1>
+        <header style="margin-bottom:30px;">
+            <img  style="display:block;" alt="logo" title="logo" width="1250" height="300" onmousemove="return false;" onmouseout="return false;" src="../img/indexback.jpg" />
+            <nav class="n">
+                <ul >
+                    <li><a href="../index.html">首頁</a></li>
+                    <li><a href="EEIT9713 Hw1.html">作業一</a></li>
+                    <li><a href="EEIT9713 Hw2.html">作業二</a></li>
+                    <li><a href="EEIT9713 Hw3.html">作業三</a></li>
+                    <li><a href="EEIT9713 Hw4.html">作業四</a></li>
+                    <li><a href="EEIT9713 Hw5.html">作業五</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="datediv">
+
+            <div style="float:left;font-size:20px;width:45%;margin-left:10px;border:1px solid #80FFFF;margin-top:50px;">
+                <select id="se1"></select><label>年</label>
+                <select id="se2"></select><label>月</label>
+                <select id="se3"></select><label>日</label>
+            </div>
+            <div style="float:right;border:1px solid red;width:300px;height:150px;">
+                <h2 style="background-color:#006000;font-size:30px;text-align:center;border :1px solid #93FF93;margin-bottom:20px;">Information</h2>
+                <sanp id="print"></sanp>
+            </div>
+        </div>
+        
+            <footer>
+                <p style="width:100%; text-align:center; color:#C7C7E2;">
+                    EEIT9713 李亦然 &nbsp; E-amil:luke710130@gmail.com &copy;
+            </footer>
+        </div>
+    
+</body>
+</html>
